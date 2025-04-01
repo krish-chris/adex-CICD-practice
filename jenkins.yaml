@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('checkout') {
             steps {
-                git 'https://github.com/krish-chris/adex-CICD-practice.git
+                git 'https://github.com/krish-chris/adex-CICD-practice.git'
             }
         }
         stage('build'){
