@@ -9,7 +9,7 @@ pipeline {
         }
         stage('build'){
           steps{
-            bat 'C:\Users\acer.LAPTOP-5288CU32\AppData\Local\Programs\Python\Launcher\ 1st.py'
+            bat 'C:\\Users\\acer.LAPTOP-5288CU32\\AppData\\Local\\Programs\\Python\\Launcher\\ 1st.py'
           }
         }
 
