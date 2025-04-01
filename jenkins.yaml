@@ -9,7 +9,7 @@ pipeline {
         }
         stage('build'){
           steps{
-            bat 'python3 1st.py'
+            bat 'C:\\Path\\To\\Python\\python.exe 1st.py'
           }
         }
 
