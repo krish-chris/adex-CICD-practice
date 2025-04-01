@@ -1,3 +1,4 @@
-a = input("Enter Your name : ")
+name = input("Enter Your name : ")
+# print(type(a))
 print(a)
 
