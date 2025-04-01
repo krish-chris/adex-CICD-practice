@@ -1,4 +1,1 @@
-name = input("Enter Your name : ")
-# print(type(a))
-print(name)
-
+print("Hello World")
