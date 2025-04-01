@@ -8,7 +8,10 @@ pipeline {
             }
         }
         stage('build'){
-          bat "python 1st.py"
+          steps{
+            bat "python 1st.py"
+          }
         }
+
     }
 }
